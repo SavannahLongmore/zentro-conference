@@ -813,7 +813,7 @@ main p {
   margin: 6rem 0;
   background-image: url("../images/beach.webp");
   background-size: cover;
-  background-position: center top;
+  background-position: center;
 }
 
 .image-overlay {
