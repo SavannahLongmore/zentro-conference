@@ -1157,6 +1157,15 @@ footer {
   .themeGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .image-break {
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    margin: 6rem 0;
+    background-image: url("../images/beach.webp");
+    background-size: cover;
+    background-position: center;
+  }
   .scheduleItem {
     grid-template-columns: 140px 1fr;
     align-items: start;
