@@ -1,0 +1,96 @@
+header,
+main,
+footer {
+  padding-left: $gutter-md;
+  padding-right: $gutter-md;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  width: 36px;
+  height: auto;
+}
+
+.logoText {
+  font-size: 1.35rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* keep hamburger on medium if you want; hide only on large */
+/* .navToggle { display: none; } */
+
+.hero {
+  height: 64vh;
+  min-height: 460px;
+  max-height: 620px;
+}
+
+.hero-content {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.hero-text {
+  max-width: 28rem;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.6rem, 6vw, 4rem);
+}
+
+.hero-text p {
+  font-size: 1.05rem;
+}
+
+.hero-btn {
+  font-size: 0.88rem;
+  padding: 0.8rem 1.2rem;
+}
+
+.aboutPanel,
+.reservePanel {
+  padding: 2.5rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    gap: 1.5rem;
+  }
+}
+
+.flip-inner {
+  height: 410px;
+}
+
+.themeGrid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.scheduleItem {
+  grid-template-columns: 120px 1fr;
+}
+
+.site-footer {
+  padding: 3rem 1.5rem 1.75rem;
+}
+
+.footer-top {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.footer-bottom {
+  text-align: center;
+}
