@@ -811,7 +811,7 @@ main p {
   height: 60vh;
   min-height: 400px;
   margin: 6rem 0;
-  background-image: url("../images/beach.jpg");
+  background-image: url("../images/beach.webp");
   background-size: cover;
   background-position: center top;
 }
